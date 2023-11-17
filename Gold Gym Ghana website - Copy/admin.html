@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <a href="log.php">link</a>
+    <div class="admin-container">
+        <h2>Add New Blog Post</h2>
+        <form action="add_post.php" method="post">
+            <label for="title">Title:</label>
+            <input type="text" name="title" required>
+
+            <label for="category">Category:</label>
+            <input type="text" name="category" required>
+
+            <label for="author">Author:</label>
+            <input type="text" name="author" required>
+
+            <label for="image">Image URL:</label>
+            <input type="file" name="image">
+
+            <label for="body">Body:</label>
+            <textarea name="body"  required></textarea>
+
+            <input type="submit" value="Publish Blog">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Gym Ghana</title>
+
+    <!-- link to css file -->
+    <link rel="stylesheet" href="css_file/style.css">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+         <!-- company logo -->
+         <div class="companyLogo">
+            <a href="index.html">Gold <span>Gym</span> Ghana</a>
+        </div>
+        <nav>
+            <!-- company logo -->
+           
+
+            <!-- ul links to different pages -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="package.html">Packages</a></li>
+                <li><a  href="gallery.html">Gallery</a></li>
+                <li><a href="promotions.html">Pormotions</a></li>
+                <li><a href="">Blog</a></li>
+
+
+            </ul>
+            <!-- link to sign up and login form -->
+            <div class="createAccount">
+                <a href="signupLogin.html">My Account</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- banner -->
+    <div class="banner-container">
+        <h1>Welcome to Your Confirmation Page</h1>
+        <p class="banner-paragraph">Thank you for choosing our services! Here, you'll find all the details of your selected package.</p>
+        <p>If you have any questions or need assistance, please feel free to reach out to our <a href="">support team
+            </a>.</p>
+    </div>
+
+
+    <div class="confirmation-page-Container">
+        <h2>You're almost there! Complete your order </h2>
+
+        <h3><i class="fa-solid fa-rotate-left"></i> 30-Day Money-Back Guarantee </h3>
+    </div>
+
+    <div class="selectPaymentMethod-container">
+       <!-- This section of the HTML code represents a payment method selection interface on a website for gym memberships or services. It allows users to choose from various payment options and enter their payment information.
+
+          1. The outer container for the payment method selection and payment information.
+          2. The left container holds the payment method selection options.
+            - Users can choose between Credit Card, Paypal, Google Pay, Mobile Money, and Cash Payment.
+            3. The right container displays information about the selected package and a form for entering payment details.
+            - Users can enter their First Name, Last Name, Phone Number, Country, Region/Province, City, Street Address, and Zipcode.
+            - There's a "Secure Payment" button for users to proceed with their payment.
+            - Assurance information is displayed, indicating a 30-Day Money-Back Guarantee and encrypted, secure payments.-->
+
+        <div class="paymentMedthod-container">
+            <h2>Select Payment</h2>
+            <div class="selectPaymethod">
+                <div class="payment">
+                    <button id="CreditCard">Credit Card <img src="media/img/credit card.png" alt=""></button>
+                </div>
+                <div class="payment">
+                    <button id="Paypal">Paypal <img src="media/img/paypal.png" alt=""></button>
+                </div>
+
+                <div class="payment">
+                    <button id="gpay">Google Pay <img src="media/img/gpay.png" alt="" class="gpay"></button>
+                </div>
+
+                <div class="payment">
+                    <button id="mobileMoney">Mobile Money <img src="media/img/mobile money.png" alt=""></button>
+                </div>
+
+                <div class="payment">
+                    <button id="cashPayment">Cash Payment</button>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="paymentInformation">
+           
+            <div class="selectedPackage">
+
+            </div>
+
+            <form action="" class="paymentForm">
+                <div class="input">
+                    <input type="text" placeholder="First Name" name="paymentMethodFirstName"
+                        id="paymentMethodFirstName">
+                    <input type="text" placeholder="Last Name" name="paymentMethodLastName" id="paymentMethodLastName">
+                </div>
+
+                <div class="input">
+                    <input type="number" placeholder="Phone" name="paymentMethodPhoneNumber"
+                        id="paymentMethodPhoneNumber">
+
+                </div>
+
+                <div class="input">
+                    <select name="" name="paymentMethodCountry" id="paymentMethodCountry">
+                        <option selected value="">Accra</option>
+                        <option value="">Accra</option>
+                        <option value="">Accra</option>
+                        <option value="">Accra</option>
+                        <option value="">Accra</option>
+                        <option value="">Accra</option>
+                    </select>
+
+                </div>
+
+                <div class="input">
+                    <input type="text" placeholder="Region/Province(optional)" name="paymentMethodRegion"
+                        id="paymentMethodRegion">
+                    <input type="text" placeholder="City(optional)" name="paymentMethodPhoneCity"
+                        id="paymentMethodPhoneCity">
+                </div>
+
+                <div class="input">
+                    <input type="text" placeholder="Street Address(optional)" name="paymentMethodStreet"
+                        id="paymentMethodStreet">
+                    <input type="number" placeholder="Zipcode(optional)" name="paymentMethodZipcode"
+                        id="paymentMethodZipcode">
+                </div>
+
+                <div class="sucure-payment">
+                    <div class="buttons">
+                        <button id="sucure-paymentButton">Secure Button</button>
+                    </div>
+                    <div class="assurance">
+                        <p><i class="fa-solid fa-rotate-left"></i> 30-Day Money-Back Guarantee </p>
+                        <p><i class="fa fa-lock"></i> Encrypted and Secure Payments </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+<!-- FOOTER
+ -->
+    <footer>
+        <div class="footer-container">
+            <div class="companyLogo at-the-footer">
+                <a href="">Gold <span>Gym</span> Ghana</a>
+
+                <p> Gold Gym Ghana, situated in Airport City, is a leading fitness center providing tailored wellness and fitness programs. With state-of-the-art equipment and expert trainers, they foster a vibrant community focused on improving health and vitality.</p>
+            </div>
+            <div class="reach-us">
+                <h4>Reach Us On</h4>
+                <h5>Tel: +233 541254645</h5>
+                <h5>Email: goldgymghana@gmail.com</h5>
+                <h5>Location:One Airport Square, Accra </h5>
+                <a href="">Send us a message</a>
+            </div>
+
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <li><a href="">Gold Gym Ghana</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">FAQS</a></li>
+                <li><a href="">Our Team</a></li>
+                <li><a href="">Privacy / Policy</a></li>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="javascript_file/main.js"></script>
+    <script src="javascript_file/retrieveData.js"></script>
+
+</body>
+
+</html>

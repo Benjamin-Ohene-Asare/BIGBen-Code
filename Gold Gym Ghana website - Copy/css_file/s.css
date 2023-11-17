@@ -1,0 +1,26 @@
+
+body{
+    background: linear-gradient(to right,#e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-container .container{
+    background-color: var(--white);
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    min-height: 480px;
+    border-radius: 0 5px 15px rgba(0,0,0,0.35);
+}
+
+.main-container .containerp{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+   
+}

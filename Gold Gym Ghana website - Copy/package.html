@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Gym Ghana</title>
+
+    <!-- link to css file -->
+    <link rel="stylesheet" href="css_file/style.css">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+         <!-- company logo -->
+         <div class="companyLogo">
+            <a href="index.html">Gold <span>Gym</span> Ghana</a>
+        </div>
+        <nav>
+            <!-- company logo -->
+           
+
+            <!-- ul links to different pages -->
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a class="active"  href="package.html">Packages</a></li>
+                <li><a  href="gallery.html">Gallery</a></li>
+                <li><a href="promotions.html">Pormotions</a></li>
+                <li><a href="">Blog</a></li>
+
+
+            </ul>
+            <!-- link to sign up and login form -->
+            <div class="createAccount">
+                <a href="signupLogin.html">My Account</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- banner -->
+    <div class="banner-container">
+        <h1>Packages</h1>
+        <div class="banner">
+            <a href="">Home</a>
+            <span>||</span>
+            <p>Packages</p>
+
+        </div>
+    </div>
+
+   
+    <!-- Membership Plans" and "Personal Training Packages -->
+    <div class="membership-pricing-container">
+        <div class="heading">
+            <h4>Discover Our Offers</h4>
+        </div>
+
+        <div class="packages-container">
+            <div class="packages" id="monthly">
+                <div class="packageHeading">
+                    <h2>MONTLY </h2>
+                    <p>(Every Month) </p>
+                    <h3>$50</h3>
+                </div>
+                <li><i class="fa-solid fa-check"></i> Access to gym facilities during regular hours</li>
+                <li><i class="fa-solid fa-check"></i> Group fitness classes included</li>
+                <li><i class="fa-solid fa-check"></i> 24/7 gym access available for an additional $10/month
+                </li>
+                <div class="purchase">
+                    <button class="purchaseButton" onclick="redirectToConfirmation('monthly')">Purchase
+                    </button>
+
+                </div>
+
+               
+            </div>
+
+            <div class="packages" id="sixMonth">
+                <div class="packageHeading">
+                    <h2>SIX MONTH</h2>
+                    <h3>$50</h3>
+                </div>
+                <li><i class="fa-solid fa-check"></i> Unlimited access to gym facilities, including 24/7 access
+                </li>
+                <li><i class="fa-solid fa-check"></i> Access to all group fitness classes</li>
+                <li><i class="fa-solid fa-check"></i> Personalized workout plans</li>
+                <li><i class="fa-solid fa-check"></i> Free access to sauna and steam room</li>
+
+                <div class="purchase">
+                    <button class="purchaseButton" onclick="redirectToConfirmation('sixMonth')">Purchase
+                    </button>
+
+                </div>
+            </div>
+            <div class="packages" id="fullYear">
+                <div class="packageHeading">
+                    <h2>FULL YEAR </h2>
+                    <h3>$50</h3>
+                </div>
+                <li><i class="fa-solid fa-check"></i> Valid student ID required</li>
+                <li><i class="fa-solid fa-check"></i> Access to gym facilities during regular hours</li>
+                <li><i class="fa-solid fa-check"></i> Discounted rates on personal training sessions</li>
+
+                <div class="purchase">
+                    <button class="purchaseButton" onclick="redirectToConfirmation('fullYear')">Purchase</button>
+                </div>
+            </div>
+
+            <div class="packages" id="walkIn">
+                <div class="packageHeading">
+                    <h2>WALK IN </h2>
+                    <h3>$50</h3>
+
+                </div>
+                <li><i class="fa-solid fa-check"></i> Access to gym facilities during regular hours for both
+                    members</li>
+                <li><i class="fa-solid fa-check"></i> Access to all group fitness classes</li>
+                <li><i class="fa-solid fa-check"></i> 24/7 gym access available for an additional $10/month per
+                    member</li>
+                <div class="purchase">
+                    <button class="purchaseButton"
+                        onclick="redirectToConfirmation('walkIn')">Purchase</button>
+
+                </div>
+
+            </div>
+
+            <div class="packages" id="oneWeek">
+                <div class="packageHeading">
+                    <h2>ONE WEEK </h2>
+                    <h3>$50</h3>
+
+                </div>
+                <li><i class="fa-solid fa-check"></i> Access to gym facilities during regular hours for both
+                    members</li>
+                <li><i class="fa-solid fa-check"></i> Access to all group fitness classes</li>
+                <li><i class="fa-solid fa-check"></i> 24/7 gym access available for an additional $10/month per
+                    member</li>
+                <div class="purchase">
+                    <button class="purchaseButton"
+                        onclick="redirectToConfirmation('oneWeek')">Purchase</button>
+
+                </div>
+
+            </div>
+
+            <div class="packages" id="monthly">
+                <div class="packageHeading">
+                    <h2>3X A Week</h2>
+                    <h3>$50</h3>
+                </div>
+                <li><i class="fa-solid fa-check"></i> Access to gym facilities during regular hours</li>
+                <li><i class="fa-solid fa-check"></i> Group fitness classes included</li>
+                <li><i class="fa-solid fa-check"></i> 24/7 gym access available for an additional $10/month
+                </li>
+                <div class="purchase">
+                    <button class="purchaseButton" onclick="redirectToConfirmation('monthly')">Purchase
+                    </button>
+
+                </div>
+
+               
+            </div>
+
+            <div class="packages" id="sixMonth">
+                <div class="packageHeading">
+                    <h2>QUARTERLY</h2>
+                    <P>Half Year</P>
+                    <h3>$50</h3>
+                </div>
+                <li><i class="fa-solid fa-check"></i> Unlimited access to gym facilities, including 24/7 access
+                </li>
+                <li><i class="fa-solid fa-check"></i> Access to all group fitness classes</li>
+                <li><i class="fa-solid fa-check"></i> Personalized workout plans</li>
+                <li><i class="fa-solid fa-check"></i> Free access to sauna and steam room</li>
+
+                <div class="purchase">
+                    <button class="purchaseButton" onclick="redirectToConfirmation('sixMonth')">Purchase
+                    </button>
+
+                </div>
+            </div>
+            <div class="packages" id="fullYear">
+                <div class="packageHeading">
+                    <h2>MONTHLY </h2>
+                    <p>(Student with ID)</p>
+                    <h3>$50</h3>
+                </div>
+                <li><i class="fa-solid fa-check"></i> Valid student ID required</li>
+                <li><i class="fa-solid fa-check"></i> Access to gym facilities during regular hours</li>
+                <li><i class="fa-solid fa-check"></i> Discounted rates on personal training sessions</li>
+
+                <div class="purchase">
+                    <button class="purchaseButton" onclick="redirectToConfirmation('fullYear')">Purchase</button>
+                </div>
+            </div>
+
+           
+
+           
+        </div>
+    </div>
+
+
+
+    
+ <!-- footer -->
+ <footer>
+    <div class="footer-container">
+        <div class="companyLogo at-the-footer">
+            <a href="">Gold <span>Gym</span> Ghana</a>
+
+            <p> Gold Gym Ghana, situated in Airport City, is a leading fitness center providing tailored wellness and fitness programs. With state-of-the-art equipment and expert trainers, they foster a vibrant community focused on improving health and vitality.</p>
+        </div>
+        <div class="reach-us">
+            <h4>Reach Us On</h4>
+            <h5>Tel: +233 541254645</h5>
+            <h5>Email: goldgymghana@gmail.com</h5>
+            <h5>Location:One Airport Square, Accra </h5>
+            <a href="">Send us a message</a>
+        </div>
+
+        <div class="quick-links">
+            <h4>Quick Links</h4>
+            <li><a href="">Gold Gym Ghana</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">FAQS</a></li>
+            <li><a href="">Our Team</a></li>
+            <li><a href="">Privacy / Policy</a></li>
+
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="javascript_file/main.js"></script>
+</body>
+
+</html>
